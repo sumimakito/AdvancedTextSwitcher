@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:gravity="center"
+	android:orientation="vertical">
+
+	<sumimakito.android.advtextswitcher.AdvTextSwitcher
+		xmlns:app="http://schemas.android.com/apk/res/sumimakito.android.advtextswitcher"
+		android:id="@+id/mainSubtitleView"
+		app:textSize="32sp"
+		app:gravity="right"
+		android:textColor="#66BCBB"
+		android:layout_width="260dp"
+		android:layout_height="wrap_content"/>
+
+	<Button
+		android:id="@+id/mainButtonNext"
+		android:layout_height="wrap_content"
+		android:text="Next"
+		android:layout_width="wrap_content"/>
+
+	<Button
+		android:id="@+id/mainButtonPrev"
+		android:layout_height="wrap_content"
+		android:text="Previous"
+		android:layout_width="wrap_content"/>
+
+</LinearLayout>
+
