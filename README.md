@@ -12,7 +12,7 @@ Just like the way how Google+ display recent reviews on their cards.
 
 ### Preview 预览
 
-*Coming soon.*
+[Watch Preview on Youtube](https://youtu.be/6RBXKVVwF7I)
 
 ### Usage 使用说明
 
