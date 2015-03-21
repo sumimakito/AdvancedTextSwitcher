@@ -42,7 +42,7 @@ public class AdvTextSwitcher extends TextSwitcher
 		boolean left = (ta.getInt(4, 0) & 0x02) == 0x02;
 		boolean center = (ta.getInt(4, 0) & 0x03) == 0x03;
 		final int gravity = center?Gravity.CENTER:
-			(right?Gravity.RIGHT:
+			(right?Gravity.RIGHT|Gravity.CENTER_VERTICAL:
 					(left?(Gravity.LEFT|Gravity.CENTER_VERTICAL)
 						:Gravity.NO_GRAVITY)
 			);
