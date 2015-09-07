@@ -12,6 +12,8 @@ Just like the way how Google+ display recent reviews on their cards.
 
 ### Preview 预览
 
+![Snapshot](art/snapshot.gif)
+
 [Watch Preview on Youtube](https://youtu.be/6RBXKVVwF7I)
 
 ### Usage 使用说明
@@ -49,7 +51,7 @@ import sumimakito.android.advtextswitcher.*;
 
 ```java
     //For example, the String array below contains four recent reviews.
-    String[] texts = {"Anne: Great!", "Cathy: I do not think so.", "Jimmy: Cloning your repo...", "Aoi: This bug disappeared!"};	
+    String[] texts = {"Anne: Great!", "Cathy: I do not think so.", "Jimmy: Cloning your repo...", "Aoi: This bug disappeared!"};
     advTextSwitcher = (AdvTextSwitcher) findViewById(R.id.advTextSwitcher);
     //Give them to AdvTextSwitcher
     advTextSwitcher.setTexts(texts);
@@ -57,7 +59,7 @@ import sumimakito.android.advtextswitcher.*;
     advTextSwitcher.next();
     //Switch to the previous one.
     advTextSwitcher.previous();
-    
+
     //Auto switch between texts every 5000ms.
     Switcher switcher = new Switcher(this, advTextSwitcher, 5000);
     switcher.start();
@@ -89,11 +91,11 @@ Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
 You may obtain a copy of the License at
 
-    http://www.apache.org/licenses/LICENSE-2.0 
-    
+    http://www.apache.org/licenses/LICENSE-2.0
+
 Unless required by applicable law or agreed to in writing, software
 distributed under the License is distributed on an "AS IS" BASIS,
 WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 See the License for the specific language governing permissions and
-limitations under the License. 
+limitations under the License.
 ```
