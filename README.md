@@ -65,7 +65,7 @@ import sumimakito.android.advtextswitcher.*;
     switcher.start();
     //Pause
     switcher.pause();
-    //Or use switcher in only one line...
+    //Or use switcher in only one line...(NOT RECOMMENDED)
     new Switcher(this).attach(advTextSwitcher).setDuration(5000).start();
 
     //Want to know which text is clicked?

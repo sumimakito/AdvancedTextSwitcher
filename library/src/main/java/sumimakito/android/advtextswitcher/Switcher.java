@@ -58,8 +58,8 @@ public class Switcher
 			if (!isPaused && advTsView != null)
 			{
 				advTsView.next();
+				hlUpdt.postDelayed(this, mDuration);
 			}
-			if (!isPaused) hlUpdt.postDelayed(this, mDuration);
 		}
 	};
 }
