@@ -5,19 +5,15 @@ import android.os.Handler;
 
 public class Switcher
 {
-	private Context mContext;
 	private AdvTextSwitcher advTsView;
 	private boolean isPaused;
 	private int mDuration=1000;
 
-	public Switcher(Context context)
-	{
-		this.mContext = context;
-	}
+	public Switcher()
+	{}
 
-	public Switcher(Context context, AdvTextSwitcher view, int duration)
+	public Switcher(AdvTextSwitcher view, int duration)
 	{
-		this.mContext = context;
 		this.advTsView = view;
 		this.mDuration = duration;
 	}

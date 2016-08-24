@@ -61,12 +61,12 @@ import sumimakito.android.advtextswitcher.*;
     advTextSwitcher.previous();
 
     //Auto switch between texts every 5000ms.
-    Switcher switcher = new Switcher(this, advTextSwitcher, 5000);
+    Switcher switcher = new Switcher(advTextSwitcher, 5000);
     switcher.start();
     //Pause
     switcher.pause();
-    //Or use switcher in only one line...(NOT RECOMMENDED)
-    new Switcher(this).attach(advTextSwitcher).setDuration(5000).start();
+    //Or use switcher in only one line...
+    new Switcher().attach(advTextSwitcher).setDuration(5000).start();
 
     //Want to know which text is clicked?
     advTextSwitcher.setCallback(new AdvTextSwitcher.Callback(){
@@ -77,6 +77,20 @@ import sumimakito.android.advtextswitcher.*;
 		    		}
     });
 ```
+### Donate &amp; Support 捐赠与支持
+
+Makito是一个自由开发者，同时也是一名在校大学生。
+
+若是我的项目曾为您带来便利，我将很开心。
+
+您可以收藏我的其他优秀项目以表示支持，也可以通过支付宝向我打赏以示鼓励，我将记住每一个曾支持过以及帮助过我的人，谢谢。
+
+支付宝账户 826257232#qq.com (#请换成@)
+
+或使用支付宝客户端扫描下面的二维码
+
+<img src="art/aliqr.png" width="400">
+
 
 ### Copyright &amp; License 版权信息与授权协议
 
