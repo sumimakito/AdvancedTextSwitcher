@@ -6,6 +6,12 @@ Just like the way how Google+ display recent reviews on their cards.
 
 仿照Google+在卡片上滚动显示最新评论的TextSwitcher。
 
+### Preview 预览
+
+![Snapshot](art/snapshot.gif)
+
+[Watch Preview on Youtube](https://youtu.be/6RBXKVVwF7I)
+
 ### Add to your project 添加到你的项目
 
 Add JitPack repository to build.gradle in project root.
@@ -32,12 +38,6 @@ dependencies {
 ```
 
 You can also add this project as a library to your project directly.(NOT recommended)
-
-### Preview 预览
-
-![Snapshot](art/snapshot.gif)
-
-[Watch Preview on Youtube](https://youtu.be/6RBXKVVwF7I)
 
 ### Usage 使用说明
 
