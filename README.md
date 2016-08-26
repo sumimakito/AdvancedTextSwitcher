@@ -1,4 +1,4 @@
-art# AdvancedTextSwitcher
+# AdvancedTextSwitcher
 
 Advanced TextSwitcher for faster development.
 
@@ -6,9 +6,32 @@ Just like the way how Google+ display recent reviews on their cards.
 
 仿照Google+在卡片上滚动显示最新评论的TextSwitcher。
 
-### Download 下载
+### Add to your project 添加到你的项目
 
-*JAR is unavailable at this time, please add this project as a library to your project.*
+Add JitPack repository to build.gradle in project root.
+
+在项目根目录下的build.gradle中加入以下内容
+
+```
+allprojects {
+	repositories {
+		...
+		maven { url "https://jitpack.io" }
+	}
+}
+```
+
+Add the dependency to build.gradle in app root.
+
+在应用目录下的build.gradle中加入以下依赖
+
+```
+dependencies {
+        compile 'com.github.SumiMakito:AdvancedTextSwitcher:0.1'
+}
+```
+
+You can also add this project as a library to your project directly.(NOT recommended)
 
 ### Preview 预览
 
