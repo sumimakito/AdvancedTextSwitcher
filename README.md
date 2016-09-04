@@ -102,18 +102,23 @@ import sumimakito.android.advtextswitcher.*;
 ```
 ### Donate &amp; Support 捐赠与支持
 
-Makito是一个自由开发者，同时也是一名在校大学生。
+Makito是一个自由的软件开发者，也是一名在校大学生。
 
-若是我的项目曾为您带来便利，我将很开心。
+欢迎您去查看我的其他开源项目，同时也欢迎通过打赏支持我一下。感谢
 
-您可以收藏我的其他优秀项目以表示支持，也可以通过支付宝向我打赏以示鼓励，我将记住每一个曾支持过以及帮助过我的人，谢谢。
+##### 支付宝/AliPay
 
-支付宝账户 826257232#qq.com (#请换成@)
+826257232#qq.com (#请换成@)
 
-或使用支付宝客户端扫描下面的二维码
+<img src="art/aliqr.png" width="230">
 
-<img src="art/aliqr.png" width="400">
+##### 微信支付
 
+<img src="art/wechat_qr.png" width="230">
+
+##### PayPal
+
+sumimakito#hotmail.com (replace # with @)
 
 ### Copyright &amp; License 版权信息与授权协议
 
