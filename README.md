@@ -33,7 +33,7 @@ Add the dependency to build.gradle in app root.
 
 ```
 dependencies {
-        compile 'com.github.SumiMakito:AdvancedTextSwitcher:0.1'
+        compile 'com.github.SumiMakito:AdvancedTextSwitcher:0.3'
 }
 ```
 
